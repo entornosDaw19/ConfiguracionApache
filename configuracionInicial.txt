@@ -1,0 +1,15 @@
+La configuración de apache se encuentra ademas de en /etc/apache2/apache2.conf, en el fichero de configuracion del sitio virtual por defecto que es 000-default.conf
+En dicho fichero será donde realizaremos todas las configuraciones:
+
+1/ Si se elimina el fichero index.html del DocumentRoot /var/www/html y esá presente la opcion options +Indexes => Se listará el DocumentoRoot
+
+2/ Si se elimina el fichero index.html del DocumentRoot /var/www/html y esá presente la opcion options -Indexes => Saldrá el error 403
+
+3/ Si se existen los fichero index.html y daw.php en el DocumentRoot /var/www/html, está presente la opcion DirectoryIndex daw.php y está presente la opcion options +Indexes => Se visualizará el contenido del fichero daw.php
+
+
+4/ Si se existe solo  el fichero index.html en el DocumentRoot /var/www/html, está presente la opcion DirectoryIndex daw.php y está presente la opcion options +Indexes => Se listará el DocumentoRoot
+
+
+5/ Si se existe solo el fichero index.html en el DocumentRoot /var/www/html, está presente la opcion DirectoryIndex daw.php y está presente la opcion options -Indexes => Saldrá el error 403
+
