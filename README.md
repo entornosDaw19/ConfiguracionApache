@@ -9,4 +9,6 @@ Vamos a documentar configuraciones básicas de apache en ubuntu server 18.04
   - Creamos los ficheros de contraseñas con los comandos: htpasswd y htdigest
   - Configuramos la entrada al directorio Curso del servidor para que tenga autenticación Basic
   - Configuramos la entrada al directorio Apuntes del servidor para que tenga autenticación Digest
-  
+  - Usamos el fichero .htaccess para configurar el directorio praacticas (modificamos su directory correspondiente con AllowOverride All)
+- Probamos server-status, server-info y webalizer  
+
