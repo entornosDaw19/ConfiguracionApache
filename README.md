@@ -12,3 +12,5 @@ Vamos a documentar configuraciones básicas de apache en ubuntu server 18.04
   - Usamos el fichero .htaccess para configurar el directorio praacticas (modificamos su directory correspondiente con AllowOverride All)
 - Probamos server-status, server-info y webalizer  
 
+# se modifica en local el ficheo
+
